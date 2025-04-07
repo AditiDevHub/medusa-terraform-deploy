@@ -1,0 +1,15 @@
+[
+  {
+    "name": "medusa",
+    "image": "399790254076.dkr.ecr.us-east-1.amazonaws.com/medusa-backend:latest",
+    "cpu": 512,
+    "memory": 1024,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 9000,
+        "hostPort": 9000
+      }
+    ]
+  }
+]
