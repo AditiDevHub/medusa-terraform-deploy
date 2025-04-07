@@ -23,4 +23,6 @@ build
 !.yarn/sdks
 !.yarn/versions
 
-.medusa
+.medusa.terraform/
+terraform.tfstate*
+.terraform.lock.hcl
